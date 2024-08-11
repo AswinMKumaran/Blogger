@@ -1,0 +1,69 @@
+.addPContainer {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.addPContainer h1{
+  margin-bottom: 0px;
+  color: #8D493A;
+}
+
+.inputContainer{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 40px
+}
+
+.inputContainer *{
+  width: 80%;
+  min-height: 70px;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.inputContainer .contentInput{
+  padding: 10px;
+  height: 300px;
+  box-sizing: border-box;
+} 
+
+.inputContainer .titleInput{
+  padding: 10px;
+  box-sizing: border-box;
+} 
+
+.btnContainer{
+  width: 400px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 150px;
+}
+
+.btnContainer button{
+  width: 200px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: burlywood;
+  color: azure;
+  font-size: 20px;
+}
+
+button:hover{
+  box-shadow: rgba(0, 0, 0, 0.19) 10px 10px 20px, rgba(0, 0, 0, 0.23) 10px 6px 6px;
+}
+
+.btnContainer a{
+  color: azure;
+  text-decoration: none;
+}
+
